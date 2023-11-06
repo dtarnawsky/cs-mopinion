@@ -15,7 +15,7 @@ dependencies {
     implementation project(':capacitor-status-bar')
 
 }
-
+apply from: "../../node_modules/mopinionsdk-cordova-plugin/src/android/mopinionsdk.gradle"
 
 if (hasProperty('postBuildExtras')) {
   postBuildExtras()
